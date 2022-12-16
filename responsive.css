@@ -1,0 +1,24 @@
+@media (max-width:633px){
+    .content a{
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+  
+    .backgraund_image{
+        width: 100%;
+        object-fit: cover;
+    }
+    .content h1{
+        font-size: 300%;
+        padding-top: 60px;
+    }
+    .content a{
+        padding-top: 100%;
+    }
+  
+    #sidenav{
+        width: 130px;
+    }
+    
+}
