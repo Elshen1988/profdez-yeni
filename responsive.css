@@ -1,3 +1,4 @@
+
 @media (max-width:633px){
     .content a{
         border: none;
@@ -6,7 +7,7 @@
     }
   
     .backgraund_image{
-        width: 100%;
+        width: 900px;
         object-fit: cover;
     }
     .content h1{
@@ -18,7 +19,13 @@
     }
   
     #sidenav{
-        width: 130px;
+        width: 180px;
     }
     
 }
+    
+    #manubtn{
+        right: 70px;
+        top: 0px;
+    }
+    

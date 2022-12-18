@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./responsive.css">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    
 </head>
 
 <body>
@@ -30,97 +31,101 @@
         <div id="sidenav">
             <nav>
                 <ul>
-                    <li><a href="content">Ana Səhifə</a></li>
-                    <li><a href="#">Haqqımızda</a></li>
-                    <li><a href="#">Xidmətlər</a></li>
-                    <li><a href="#">Şəkillər və videolar</a></li>
-                    <li><a href="#">Bizimlə əlaqə</a></li>
+                    <li><a class="srif" href="hero">Ana Səhifə</a></li>
+                    <li><a class="srif" href="#">Haqqımızda</a></li>
+                    <li><a class="srif" href="#">Xidmətlər</a></li>
+                    <li><a class="srif" href="#">Şəkillər<br> və videolar</a></li>
+                    <li><a class="srif" href="#">Bizimlə əlaqə</a></li>
                 </ul>
             </nav>
         </div>
         <div id="manubtn">
             <img src="./sekil/222.png" id="menu">
         </div>
-        <script>
-            var manubtn = document.getElementById("manubtn")
-            var sidenav = document.getElementById("sidenav")
-            var menu = document.getElementById("menu")
 
-            sidenav.style.right = "-250px"
-
-            manubtn.onclick = function () {
-                if (sidenav.style.right == "-250px") {
-                    sidenav.style.right = "0";
-                    menu.src = "sekil/close.png";
-                }
-                else {
-                    sidenav.style.right = "-250px";
-                    menu.src = "sekil/222.png";
-                }
-            }
-            var scroll = new SmoothScroll('a[href*="#"]', {
-                speed: 100,
-                speedAsDuration: true
-            });
-        </script>
 
     </div>
     <section>
+        <div class="basliq2">
+            <h2>Haqqımızda</h2>
+        </div>
         <div class="main_container">
             <div class="sol">
                 <div class="border">
-    
+
                     <p class="ikinci_sehife">Azərbaycan Respublikası Səhiyyə Nazirliyinin lisenziyasına əsasən
                         2013-cü ildən etibarən fəaliyyət göstəririk. </p>
-                        <img class="image" src="./sekil2/documet icon.png" alt="document">
+                    <img class="image" src="./sekil2/documet icon.png" alt="document">
                 </div>
-     <div class="border">
-    
-                <p class="ikinci_sehife">İctimai sağlamlığın qorunması sahəsində <i>dezinfeksiya,
-                        dezinseksiya və deratizasiya</i> xidmətlərini 
+                <div class="border">
+
+                    <p class="ikinci_sehife">İctimai sağlamlığın qorunması sahəsində <i>dezinfeksiya,
+                            dezinseksiya və deratizasiya</i> xidmətlərini
                         təklif edirk.</p>
-                        <img class="image"  src="./sekil2/offer icone.png" alt="offer">
-            </div>
-            <div class="border">
-    
-                <p class="ikinci_sehife">Böyük iş təcrübəsinə yiyələnmiş peşəkar həkim,
-                    bioloq-entomoloq və dezinfektorlardan ibarət
-                    geniş işçi strukturuna malikik. Bu da öz
-                    növbəsində böyük həcmli
-                    və çoxşaxəli işlərin operativ
-                    aparılmasında mühüm rol oynayır.</p>
-                    <img class="image"  src="./sekil2/job_icon.png" alt="job">
-    
-            </div>
-            <div class="border">
-                <p class="ikinci_sehife">Keyfiyyət və zəmanətə əsaslanaraq özəl
-                    və dövlət strukturları
-                    ilə müqavilələr
-                    bağlyaraq böyük iş təcrübəsi
-                    əldə etmişdir.</p>
-                    <img class="image"  src="./sekil2/quality_icon.png" alt="quality">
-            </div>
-            <div class="border">
-                <p class="ikinci_sehife">Biz öz işimizdə yalnız sertifikatlaşdırılmış .
-                    preparatlardan və müasir avadanlıqlardan istifadə
-                    edirik, istənilən mürəkkəbliyə malik obyektlərdə
-                    işləmək üçün texniki imkanlara və bacarıqlara
-                    malikik.</p>
-                    <img class="image"  src="./sekil2/tecnologi_icon.png" alt="tecnologi">
-            </div>
-            
-    
-    
-    
-    
+                    <img class="image" src="./sekil2/offer icone.png" alt="offer">
+                </div>
+                <div class="border">
+
+                    <p class="ikinci_sehife">Peşəkar həkim,
+                        bioloq-entomoloq və dezinfektorlardan ibarət
+                        geniş işçi strukturuna malikik. Bu da öz
+                        növbəsində böyük həcmli
+                        və çoxşaxəli işlərin operativ
+                        aparılmasında mühüm rol oynayır.</p>
+                    <img class="image" src="./sekil2/job_icon.png" alt="job">
+
+                </div>
+                <div class="border">
+                    <p class="ikinci_sehife">Keyfiyyət və zəmanətə əsaslanaraq özəl
+                        və dövlət strukturları
+                        ilə müqavilələr
+                        bağlyaraq böyük iş təcrübəsi
+                        əldə etmişdir.</p>
+                    <img class="image" src="./sekil2/quality_icon.png" alt="quality">
+                </div>
+                <div class="border">
+                    <p class="ikinci_sehife">Biz öz işimizdə yalnız sertifikatlaşdırılmış .
+                        preparatlardan və müasir avadanlıqlardan istifadə
+                        edirik, istənilən mürəkkəbliyə malik obyektlərdə
+                        işləmək üçün texniki imkanlara və bacarıqlara
+                        malikik.</p>
+                    <img class="image" src="./sekil2/tecnologi_icon.png" alt="tecnologi">
+                </div>
+
+
+
+
+
             </div>
             <div class="sag">
-    <img class="dezinfector" src="./sekil2/dezinfector.jpg" alt="dezinfector">
+                <img class="dezinfector" src="./sekil2/dezinfector.png" alt="dezinfector">
             </div>
         </div>
-    
+
     </section>
-    
+   
+    <script>
+        var manubtn = document.getElementById("manubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+
+        sidenav.style.right = "-250px"
+
+        manubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+                menu.src = "sekil/close.png";
+            }
+            else {
+                sidenav.style.right = "-250px";
+                menu.src = "sekil/222.png";
+            }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 100,
+            speedAsDuration: true
+        });
+    </script>
 </body>
 
 </html>
